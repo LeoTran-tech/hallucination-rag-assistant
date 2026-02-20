@@ -1,0 +1,22 @@
+# data
+data/raw/
+data/chroma_db/
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# virtual environment
+venv/
+.env/
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+*.bin
+*.pickle
