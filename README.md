@@ -143,6 +143,6 @@ Pull model:
 ollama pull qwen2.5:7b-instruct
 ```
 
-### 4. Run notebook
+### 4. Install and run notebook
 
 05_build_MVP.ipynb
