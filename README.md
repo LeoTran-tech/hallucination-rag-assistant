@@ -39,7 +39,7 @@ This system is designed as a research-oriented assistant for analyzing academic 
 3. Embedding (SentenceTransformer) BAAI/bge-base-en-v1.5
 4. Chroma Vector DB
 5. Context Builder (Injection Filtering)
-6. Local LLM (Ollama - qwen2.5:7b-instruct)
+6. ChatGPT API
 7. Citation-Grounded Answer
 
 #### Planned
@@ -58,11 +58,9 @@ Generation eval: citation precision, groundedness score, RAGAS
 - Citation headers: `[paper_id p.page]`
 - Character-limited context assembly
 
-### Local LLM Integration
+### LLM Integration
 
-Using Ollama:
-OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "qwen2.5:7b-instruct"
+Using gpt-4o-mini
 
 ## Example Output
 
@@ -133,15 +131,9 @@ cd hallucination-rag-assistant
 pip install -r requirements.txt
 ```
 
-### 3. Install Ollama
+### 3. Get your API key
 
-Download from:ollama.com
-
-Pull model:
-
-```
-ollama pull qwen2.5:7b-instruct
-```
+Get ChatGPT API key from https://platform.openai.com/settings/organization/api-keys
 
 ### 4. Run notebook
 

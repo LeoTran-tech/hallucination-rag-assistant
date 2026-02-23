@@ -20,3 +20,6 @@ Thumbs.db
 
 *.bin
 *.pickle
+
+# key files
+key.txt
