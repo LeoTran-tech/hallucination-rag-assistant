@@ -135,6 +135,6 @@ pip install -r requirements.txt
 
 Get ChatGPT API key from https://platform.openai.com/settings/organization/api-keys
 
-### 4. Run notebook
+### 4. Install and run notebook
 
 05_build_MVP.ipynb
